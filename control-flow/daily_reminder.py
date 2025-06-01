@@ -36,4 +36,4 @@ elif time_bound == 'no':
     reminder_message += "." # Add a period for non-time-bound tasks
 
 # Provide a customized reminder
-print(f"\nReminder: {reminder_message}")
+print(f"Reminder: {reminder_message}")
