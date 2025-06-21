@@ -18,7 +18,7 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"Book '{self.title}' created.") # Optional: for better visibility of creation
+        # print(f"Book '{self.title}' created.") # Removed to match expected output
 
     def __del__(self):
         """
